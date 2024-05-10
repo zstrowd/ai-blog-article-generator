@@ -114,7 +114,7 @@ def get_trascription(link):
     return transcript.text
 
 def generate_blog_from_transcription(transcription):
-    openai.api_key = "sk-proj-glMgknl4BpYzUjBJjFvWT3BlbkFJjTWuogA1OxXZmjyym4Qf"
+    openai.api_key = "secret_key"
 
     prompt = f"Based on the following transcript from a YouTube video, write a comprehensive blog article, write it based on the transcript, but dont make it look like a youtube video, make it look like a proper blog article:\n\n{transcription}\n\nArticle:"
     response = openai.completions.create(model="gpt-3.5-turbo-instruct", prompt=prompt, max_tokens=1000)
