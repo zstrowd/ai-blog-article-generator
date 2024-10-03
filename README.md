@@ -4,7 +4,7 @@ This project is a Django-based web application that uses AI to generate blog art
 
 ## Project Overview
 
-The AI Blog Article Generator is designed to help content creators generate articles automatically using AI. Users input a topic or keywords, and the application generates a full blog post, organized into sections such as introduction, body, and conclusion.
+The AI Blog Article Generator is designed to generate articles automatically using AI. Users input a topic or keywords, and the application generates a full blog post, organized into sections such as introduction, body, and conclusion.
 
 ### Key Features
 
